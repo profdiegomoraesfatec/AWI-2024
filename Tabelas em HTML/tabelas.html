@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tabela HTML</title>
+    <style>
+        /* Estilos básicos para a tabela */
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Remove espaços entre as bordas das células */
+        }
+        th, td {
+            border: 1px solid #ddd; /* Adiciona bordas às células */
+            padding: 8px; /* Espaçamento interno das células */
+            text-align: left; /* Alinha o texto à esquerda */
+        }
+        th {
+            background-color: #f2f2f2; /* Cor de fundo para o cabeçalho */
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Cor de fundo para linhas pares */
+        }
+        tr:hover {
+            background-color: #f1f1f1; /* Cor de fundo ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Exemplo de Tabela HTML</h2>
+
+    <!-- Início da tabela -->
+    <table>
+        <!-- Cabeçalho da tabela -->
+        <thead>
+            <!-- Linha do cabeçalho -->
+            <tr>
+                <!-- Cabeçalho da coluna de nome -->
+                <th>Nome</th>
+                <!-- Cabeçalho da coluna de idade -->
+                <th>Idade</th>
+                <!-- Cabeçalho da coluna de email -->
+                <th>Email</th>
+            </tr>
+        </thead>
+        <!-- Corpo da tabela -->
+        <tbody>
+            <!-- Primeira linha do corpo da tabela -->
+            <tr>
+                <!-- Célula com o nome -->
+                <td>João Silva</td>
+                <!-- Célula com a idade -->
+                <td>28</td>
+                <!-- Célula com o email -->
+                <td>joao.silva@example.com</td>
+            </tr>
+            <!-- Segunda linha do corpo da tabela -->
+            <tr>
+                <td>Maria Oliveira</td>
+                <td>34</td>
+                <td>maria.oliveira@example.com</td>
+            </tr>
+            <!-- Terceira linha do corpo da tabela -->
+            <tr>
+                <td>Pedro Santos</td>
+                <td>22</td>
+                <td>pedro.santos@example.com</td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+        </tbody>
+    </table>
+
+</body>
+</html>
